@@ -1,0 +1,43 @@
+body{
+    background-color: green;
+}
+.btn{
+    display: block;
+    padding: 10px 0;
+    margin: 1px;
+    border: 1px solid transparent;
+    background: #3262ab;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.payment-form{
+    border: 1px;
+    background-color: green;
+    border-color: red;
+    align-items: center;
+}
+
+form{
+    margin-top: 150px;
+    max-width: 230px;
+    margin: auto;
+    padding: 10px;
+    background: darkolivegreen;
+}
+
+form 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"]{
+    display: block;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 90%;
+    padding-left: 15px;
+}
